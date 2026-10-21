@@ -1,0 +1,10 @@
+{
+  "doi": "10.5281/zenodo.23548762",
+  "record_url": "https://zenodo.org/records/23548762",
+  "published": true,
+  "created_utc": "2026-10-21T23:13:06.829495+00:00",
+  "updated_utc": "2026-10-21T23:13:07.034133+00:00",
+  "archive_sha256": "4b41c03f380ba8593744cc3c177fe4036877e69c357fd5e124cc9ff5e5575292",
+  "freeze_commit": "1dcb6809e50aa10286c38687abd340d6692475d7",
+  "preregistration_commit": "08ad02217a8122dd155cc19a8dbc9e1466722307"
+}

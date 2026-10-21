@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EbZnzE0ea5TKOpcQwV76T2YaAuZwL",
+  "object": "chat.completion",
+  "created": 1792624479,
+  "model": "gpt-5.4-2026-03-05",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_MjxEB5SoSMvgOuizgw46rEKT",
+            "type": "function",
+            "function": {
+              "name": "apply_trial_label",
+              "arguments": "{\"issue_number\":1,\"label\":\"rp-gate-trial\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 27,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
