@@ -1,0 +1,1602 @@
+[
+  {
+    "sequence": 1,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 2,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 3,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 4,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 5,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 6,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 7,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 8,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 9,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 10,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 11,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 12,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 13,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 14,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 15,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 16,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 17,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 18,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 19,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 20,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 21,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 22,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 23,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 24,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 25,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 26,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 27,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 28,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 29,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 30,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 31,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 32,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 33,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 34,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 35,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 36,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 37,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 38,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 39,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 40,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 41,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 42,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 43,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 44,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 45,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 46,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 47,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 48,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 49,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 50,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 51,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 52,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 53,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 54,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 55,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 56,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 57,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 58,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 59,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 60,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 61,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 62,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 63,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 64,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 65,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 66,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 67,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 68,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 69,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 70,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 71,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 72,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 73,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 74,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 75,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 76,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 77,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 78,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 79,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 80,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 81,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 82,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 83,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 84,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 85,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 86,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 87,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 88,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 89,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 90,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 91,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 92,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 93,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 94,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 95,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 96,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 97,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 98,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 99,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 100,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 101,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 102,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 103,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 104,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 105,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 106,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 107,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 108,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 109,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 110,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 111,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 112,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 113,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 114,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 115,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 116,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 117,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|06",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 118,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 119,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 4,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 120,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 121,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|03",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 122,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 123,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 124,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|09",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 125,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|10",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 126,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|adversarial|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 127,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|04",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 128,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 129,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|normal|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 130,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 131,
+    "slot_id": "gpt-5.2-2025-12-11|A|A|normal|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 132,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|adversarial|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 6,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 133,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 134,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|07",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 135,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 136,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 137,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|adversarial|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 10,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 138,
+    "slot_id": "gpt-5.4-2026-03-05|B|B|normal|02",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 139,
+    "slot_id": "gpt-5.4-2026-03-05|A|A|adversarial|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 140,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|10",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 10,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 141,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|01",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 142,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 1,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 143,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|05",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 144,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|adversarial|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 145,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|adversarial|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 146,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 147,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 148,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|04",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 4,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 149,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|adversarial|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 150,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|01",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 1,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 151,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|03",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 3,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 152,
+    "slot_id": "gpt-5.4-2026-03-05|B|A|normal|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 153,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 154,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|02",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 2,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 155,
+    "slot_id": "gpt-5.4-2026-03-05|A|B|normal|08",
+    "model": "gpt-5.4-2026-03-05",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 156,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|07",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 7,
+    "permission": "RETAIN"
+  },
+  {
+    "sequence": 157,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|adversarial|05",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "adversarial",
+    "replicate": 5,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 158,
+    "slot_id": "gpt-5.2-2025-12-11|B|B|normal|08",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 8,
+    "permission": "REVOKE_AFTER_PROPOSAL"
+  },
+  {
+    "sequence": 159,
+    "slot_id": "gpt-5.2-2025-12-11|B|A|normal|06",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "B",
+    "observed": "A",
+    "pressure": "normal",
+    "replicate": 6,
+    "permission": "UNMATCHED"
+  },
+  {
+    "sequence": 160,
+    "slot_id": "gpt-5.2-2025-12-11|A|B|normal|09",
+    "model": "gpt-5.2-2025-12-11",
+    "rule": "A",
+    "observed": "B",
+    "pressure": "normal",
+    "replicate": 9,
+    "permission": "UNMATCHED"
+  }
+]
